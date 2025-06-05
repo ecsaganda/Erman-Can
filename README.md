@@ -147,6 +147,14 @@ year = {2022}
 }
 ```
 
+## Scripts
+
+To verify React components use `className` instead of `class`, run the helper script:
+
+```bash
+python3 check_class_attributes.py
+```
+
 ## License
 
 [MIT License](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/LICENSE.md)

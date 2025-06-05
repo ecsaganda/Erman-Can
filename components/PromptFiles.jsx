@@ -24,8 +24,8 @@ const PromptFiles = ({ lang = 'en' }) => {
         {promptsData.map(({ folderKey, folderName, files }) => (
         <section key={folderKey}>
         <br></br>
-        <h2 class="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-10 nx-border-b nx-pb-1 nx-text-3xl nx-border-neutral-200/70 contrast-more:nx-border-neutral-400 dark:nx-border-primary-100/10 contrast-more:dark:nx-border-neutral-400">{folderName}
-        <a href={`#${folderKey}`} id={folderKey} class="subheading-anchor" aria-label="Permalink for this section"></a>
+        <h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-10 nx-border-b nx-pb-1 nx-text-3xl nx-border-neutral-200/70 contrast-more:nx-border-neutral-400 dark:nx-border-primary-100/10 contrast-more:dark:nx-border-neutral-400">{folderName}
+        <a href={`#${folderKey}`} id={folderKey} className="subheading-anchor" aria-label="Permalink for this section"></a>
         </h2>
         <Cards>
         {files.map(({ slug, title }) => (
